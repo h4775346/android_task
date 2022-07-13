@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "0a1b2399-6d4f-4b38-8900-8e76886677dd",
+		"_postman_id": "6a13d257-8fb4-48dc-bbec-e1b31e3af459",
 		"name": "Furniture_task",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "6428257"
@@ -987,6 +987,48 @@
 				}
 			},
 			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://backend.forhomi.com/api",
+			"type": "string"
+		},
+		{
+			"key": "token_customer",
+			"value": "45|g5yyZcnBcvuPOuQtaY25DzxIvELmx7MS30ny3Zzq",
+			"type": "string"
+		},
+		{
+			"key": "ser",
+			"value": "https://backend.forhomi.com/api",
+			"type": "string"
+		},
+		{
+			"key": "customer",
+			"value": "Bearer 50|i2LxgBVOPhZaFofDkJ1NbTciCoJ0IiF6c7FnRoOf",
+			"type": "string"
 		}
 	]
 }
